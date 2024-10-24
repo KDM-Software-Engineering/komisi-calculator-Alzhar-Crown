@@ -9,6 +9,20 @@
  */
 
 // TULIS SCRIPT KAMU DI SINI
+let nilaiKomisi = 0
+function calculateKomisi(nilaiKontrak){
+  if (nilaiKontrak >= 1000000 && nilaiKontrak < 5000000){
+      return nilaiKomisi = 100000
+  }
+  else if (nilaiKontrak >= 5000000){
+    return nilaiKomisi = nilaiKontrak * (5/100)
+  }
+  else {
+    return nilaiKomisi = 0
+  }
+}
+
+console.log(calculateKomisi(5700000))
 
 
 
